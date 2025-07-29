@@ -26,7 +26,7 @@ Cilj je da se ubrza pretraga i optimizuje performansa baze, posebno za tabele sa
 
 ### 3. `initialData.sql`
 Ovaj fajl se koristi za inicijalno punjenje baze, uključuje:
-- Vrednosti za šifarnike (`VATCodeList`, `VATExemptionReason`, `MU_Unit`)
+- Vrednosti za šifarnike (`VATCodeList`, `VATExemptionReason`)
 - Početne vrednosti kao što su test klijenti, zaposleni i usluge
 - Osnovne zavisnosti potrebne za validaciju unosa i pravilno funkcionisanje aplikacije
 

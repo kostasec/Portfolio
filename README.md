@@ -14,7 +14,7 @@
 ## Struktura fajlova projekta
 
 ### 1. `ddl.sql`
-Sadrži kompletan DDL (Data Definition Language) skript, koji obuhvata:
+Sadrži kompletan DDL skript, koji obuhvata:
 - Kreiranje svih tabela sistema (npr. `Client`, `Employee`, `Vehicle`, `Service`, itd.)
 - Definisanje primarnih i stranih ključeva
 - Postavljanje ograničenja i drugih pravila integriteta

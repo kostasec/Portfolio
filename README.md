@@ -27,29 +27,26 @@ Cilj je da se ubrza pretraga i optimizuje performansa baze, posebno za tabele sa
 ### 3. `initialData.sql`
 Ovaj fajl se koristi za inicijalno punjenje baze, uključuje:
 - Vrednosti za šifarnike (`VATCodeList`, `VATExemptionReason`, `MU_Unit`)
-- Početne entitete kao što su test klijenti, zaposleni i usluge
+- Početne vrednosti kao što su test klijenti, zaposleni i usluge
 - Osnovne zavisnosti potrebne za validaciju unosa i pravilno funkcionisanje aplikacije
 
 ### 4. `storedProcedures.sql`
-Ovaj fajl sadrži definicije svih **procedura** koje automatizuju deo logike sistema:
+Ovaj fajl sadrži definicije svih **procedura** koje automatizuju deo logike sistema koja je potrebna kako bi se određene funkcije izvršavale na aplikativnom sloju:
 - Umetanje kompleksnih entiteta (npr. faktura sa više stavki)
 - Validacija podataka pre unosa
-- Logika poslovnih pravila (npr. postavljanje tipa transakcije pri isplati dnevnice)
+- Logika poslovnih pravila
 - Proceduralno rukovanje transakcijama i referencijalnim vezama
 
 ### 5. `ER-Model.jpg`
 Grafički prikaz **ER dijagrama** baze podataka:
 - Prikazuje entitete, njihove atribute i veze među njima
 - Koristi se kao vizuelna pomoć u razumevanju strukture baze
-- Dijagram je napravljen prema pravilima relacionog modelovanja i prati BCNF
 
 ### 6. `ProjectDocumentation-AtlantisLogistic.pdf`
 Zvanična projektna dokumentacija u PDF formatu, koja sadrži:
 - Opis poslovnog sistema i potreba firme
 - Objašnjenje strukture baze i dizajn u skladu sa normalnim formama (do BCNF)
-- ER dijagram i logički model
-- Integraciju sa eFakturom i planove za buduća proširenja (višekorisnički režim, automatizacija)
-- Tehnička dokumentacija za backend (Node.js) i frontend (React)
+- ER dijagram i relacioni model
 
 ---
 
